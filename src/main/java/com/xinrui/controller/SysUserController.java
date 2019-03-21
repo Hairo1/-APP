@@ -1,5 +1,7 @@
 package com.xinrui.controller;
 
+import com.xinrui.service.SysUserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,8 +14,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("api")
 public class SysUserController {
+    @Autowired
+    private SysUserService userService;
     @RequestMapping("/get")
     public String s(){
-        return "NAIS";
+        System.out.println(userService.getAllUser());
+        return userService.getAllUser().toString();
     }
 }
