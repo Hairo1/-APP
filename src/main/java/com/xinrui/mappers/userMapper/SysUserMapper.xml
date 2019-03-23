@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.xinrui.mappers.userMapper.SysUserMapper">
-
+    <cache type="com.xinrui.util.RedisCache"/>
     <select id="getAllUser" resultType="SysUsers">
         SELECT
           `user_id`,

@@ -18,7 +18,7 @@ public class SysUserController {
     private SysUserService userService;
     @RequestMapping("/get")
     public String s(){
-        System.out.println(userService.getAllUser());
+        //System.out.println(userService.getAllUser());
         return userService.getAllUser().toString();
     }
 }

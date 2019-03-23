@@ -1,5 +1,7 @@
 package com.xinrui.pojo;
 
+import java.io.Serializable;
+
 /**
  * 项目名称： xinrui
  * 作 者   ： Hairo
@@ -7,7 +9,7 @@ package com.xinrui.pojo;
  * 作用描述:
  */
 
-public class SysUsers {
+public class SysUsers implements Serializable {
 
     private Integer user_id;
     private String user_name;
