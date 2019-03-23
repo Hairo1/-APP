@@ -7,6 +7,6 @@ import java.util.List;
 @Mapper
 public interface SysUserMapper {
    public List<SysUsers> getAllUser();
-
+   public Integer addUser(SysUsers user);
 
 }

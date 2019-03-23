@@ -14,5 +14,15 @@
           `xinrui_db`.`sysusers`
 
     </select>
-
+    <insert id="addUser" parameterType="SysUsers">
+        INSERT INTO `xinrui_db`.`sysusers` (
+          `user_name`,
+          `user_pwd`
+        )
+        VALUES
+          (
+            #{user_name},
+            #{user_pwd}
+          ) ;
+    </insert>
 </mapper>

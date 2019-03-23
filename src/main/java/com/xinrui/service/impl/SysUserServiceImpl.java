@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.sql.SQLException;
 import java.util.List;
 
 /**
@@ -23,5 +24,11 @@ public class SysUserServiceImpl implements SysUserService {
     @Override
     public List<SysUsers> getAllUser() {
         return userMapper.getAllUser();
+    }
+
+    @Override
+    public Integer addUser(SysUsers user)  {
+        return userMapper.addUser(user);
+
     }
 }
