@@ -1,0 +1,2075 @@
+2019-04-17 13:42:10,651 INFO [main] com.mchange.v2.log.MLog.<clinit>(80) | MLog clients using log4j logging.
+2019-04-17 13:42:10,691 INFO [main] com.mchange.v2.c3p0.C3P0Registry.banner(204) | Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2019-04-17 14:18:38,956 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-17 14:18:38,957 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 14:18:38,958 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 14:18:39,052 INFO [http-nio-8080-exec-1] com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getPoolManager(462) | Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgev41a2blp2ij1lfm702|58882a93, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgev41a2blp2ij1lfm702|58882a93, idleConnectionTestPeriod -> 60, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/hairo_db?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 2, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2019-04-17 14:18:40,141 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-17 14:18:51,099 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 14:18:51,100 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 14:18:51,101 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 14:18:51,178 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 14:24:20,514 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/article/
+2019-04-17 14:24:20,514 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : POST
+2019-04-17 14:24:20,515 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 14:24:20,819 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.throwing(62) | 抛出的异常是:class org.springframework.dao.DataIntegrityViolationException
+2019-04-17 14:26:23,330 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/article/
+2019-04-17 14:26:23,331 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : POST
+2019-04-17 14:26:23,332 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 14:26:23,337 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.throwing(62) | 抛出的异常是:class org.springframework.dao.DataIntegrityViolationException
+2019-04-17 14:28:00,886 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 14:28:00,887 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 14:28:00,887 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 14:28:00,893 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 14:28:15,049 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/article/
+2019-04-17 14:28:15,050 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : POST
+2019-04-17 14:28:15,050 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 14:28:15,054 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.throwing(62) | 抛出的异常是:class org.springframework.dao.DataIntegrityViolationException
+2019-04-17 14:29:20,439 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/article/
+2019-04-17 14:29:20,440 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : POST
+2019-04-17 14:29:20,440 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 14:29:20,456 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.throwing(62) | 抛出的异常是:class org.springframework.dao.DataIntegrityViolationException
+2019-04-17 14:31:14,662 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 14:31:14,664 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 14:31:14,665 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 14:31:14,682 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 14:31:22,363 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/article/
+2019-04-17 14:31:22,363 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : POST
+2019-04-17 14:31:22,364 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 14:31:22,364 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(41) | name:a_title	value:Spring、SpringMVC和 Springboot的区别
+2019-04-17 14:31:22,364 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(41) | name:a_pubDate	value:Wed Apr 17 2019 14:31:22 GMT+0800 (中国标准时间)
+2019-04-17 14:31:22,364 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(41) | name:a_content	value:## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。
+2019-04-17 14:31:22,365 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(41) | name:l_name	value:HTML
+2019-04-17 14:31:22,378 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.throwing(62) | 抛出的异常是:class org.springframework.dao.DataIntegrityViolationException
+2019-04-17 14:33:44,703 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 14:33:44,704 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 14:33:44,705 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 14:33:44,709 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 14:34:03,304 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/article/
+2019-04-17 14:34:03,304 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : POST
+2019-04-17 14:34:03,305 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 14:34:03,306 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(41) | name:a_title	value:Spring、SpringMVC和 Springboot的区别
+2019-04-17 14:34:03,306 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(41) | name:a_pubDate	value:Wed Apr 17 2019 14:34:03 GMT+0800 (中国标准时间)
+2019-04-17 14:34:03,307 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(41) | name:a_content	value:## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。
+2019-04-17 14:34:03,307 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(41) | name:l_name	value:JAVA
+2019-04-17 14:34:03,313 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.throwing(62) | 抛出的异常是:class org.springframework.dao.DataIntegrityViolationException
+2019-04-17 14:35:43,504 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/article/
+2019-04-17 14:35:43,506 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : POST
+2019-04-17 14:35:43,506 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 14:35:43,506 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(41) | name:a_title	value:Spring、SpringMVC和 Springboot的区别
+2019-04-17 14:35:43,507 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(41) | name:a_pubDate	value:Wed Apr 17 2019 14:35:43 GMT+0800 (中国标准时间)
+2019-04-17 14:35:43,507 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(41) | name:a_content	value:## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。
+2019-04-17 14:35:43,508 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(41) | name:l_name	value:JAVA
+2019-04-17 14:35:43,512 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.throwing(62) | 抛出的异常是:class org.springframework.dao.DataIntegrityViolationException
+2019-04-17 14:36:35,210 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 14:36:35,214 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 14:36:35,215 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 14:36:35,220 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 14:36:45,468 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/article/
+2019-04-17 14:36:45,469 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : POST
+2019-04-17 14:36:45,469 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 14:36:45,469 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(41) | name:a_title	value:Spring、SpringMVC和 Springboot的区别
+2019-04-17 14:36:45,469 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(41) | name:a_pubDate	value:Wed Apr 17 2019 14:36:45 GMT+0800 (中国标准时间)
+2019-04-17 14:36:45,469 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(41) | name:a_content	value:## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。
+2019-04-17 14:36:45,469 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(41) | name:u_name	value:18711577
+2019-04-17 14:36:45,470 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(41) | name:l_name	value:JAVA
+2019-04-17 14:36:45,600 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : 1
+2019-04-17 14:36:48,249 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 14:36:48,250 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 14:36:48,251 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 14:36:48,291 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 14:36:48,419 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 14:36:48,420 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 14:36:48,421 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 14:36:48,428 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 14:36:53,025 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/detail/10002
+2019-04-17 14:36:53,026 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 14:36:53,027 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 14:36:53,038 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}
+2019-04-17 14:36:53,173 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 14:36:53,174 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 14:36:53,175 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 14:36:53,178 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 15:48:43,180 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 15:48:43,182 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 15:48:43,182 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 15:48:43,200 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 15:48:43,271 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 15:48:43,272 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 15:48:43,273 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 15:48:43,277 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 15:48:44,862 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/detail/10000
+2019-04-17 15:48:44,864 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 15:48:44,865 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 15:48:44,886 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}
+2019-04-17 15:48:44,996 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 15:48:44,996 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 15:48:44,997 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 15:48:45,002 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 15:55:41,871 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 15:55:41,873 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 15:55:41,874 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 15:55:41,901 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 15:55:41,991 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 15:55:41,992 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 15:55:41,993 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 15:55:41,999 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 16:02:06,255 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 16:02:06,257 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 16:02:06,257 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 16:02:06,275 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 16:02:06,276 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 16:02:06,277 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 16:02:06,284 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 16:02:06,291 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 16:02:51,194 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/detail/10002
+2019-04-17 16:02:51,195 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 16:02:51,195 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 16:02:51,209 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}
+2019-04-17 16:02:51,327 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 16:02:51,329 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 16:02:51,330 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 16:02:51,336 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 16:04:17,971 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/detail/10002
+2019-04-17 16:04:17,972 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 16:04:17,973 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 16:04:17,978 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}
+2019-04-17 16:04:18,084 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 16:04:18,085 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 16:04:18,086 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 16:04:18,091 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 16:06:02,907 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/detail/10002
+2019-04-17 16:06:02,911 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 16:06:02,912 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 16:06:02,926 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}
+2019-04-17 16:06:03,039 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 16:06:03,039 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 16:06:03,039 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 16:06:03,043 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 16:06:28,099 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-17 16:06:28,100 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 16:06:28,100 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 16:06:28,111 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-17 16:06:47,874 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 16:06:47,875 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 16:06:47,876 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 16:06:47,889 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 16:06:47,949 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 16:06:47,950 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 16:06:47,950 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 16:06:47,954 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 16:10:15,459 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 16:10:15,459 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 16:10:15,460 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 16:10:15,469 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 16:14:10,660 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 16:14:10,660 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 16:14:10,660 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 16:14:10,661 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 16:14:10,661 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 16:14:10,662 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 16:14:10,667 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 16:14:10,669 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 17:54:20,025 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 17:54:20,025 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 17:54:20,029 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 17:54:20,029 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 17:54:20,029 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 17:54:20,029 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 17:54:20,045 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 17:54:20,065 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 17:54:26,783 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 17:54:26,785 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 17:54:26,785 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 17:54:26,797 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 17:54:26,884 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 17:54:26,886 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 17:54:26,886 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 17:54:26,892 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 17:55:09,218 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 17:55:09,221 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 17:55:09,222 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 17:55:09,231 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 17:55:09,318 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 17:55:09,319 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 17:55:09,320 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 17:55:09,408 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 17:58:44,845 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 17:58:44,847 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 17:58:44,848 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 17:58:44,855 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 17:58:44,961 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 17:58:44,962 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 17:58:44,963 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 17:58:44,966 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:20:37,521 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 18:20:37,524 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:20:37,526 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:20:37,535 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 18:20:37,630 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:20:37,631 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:20:37,633 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:20:37,638 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:20:56,135 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 18:20:56,137 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:20:56,138 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:20:56,148 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 18:20:56,245 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:20:56,245 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:20:56,247 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:20:56,253 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:20:57,061 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 18:20:57,062 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:20:57,063 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:20:57,069 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 18:20:57,156 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:20:57,157 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:20:57,157 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:20:57,162 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:20:58,294 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 18:20:58,297 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:20:58,297 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:20:58,304 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 18:20:58,403 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:20:58,404 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:20:58,405 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:20:58,407 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:21:33,804 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 18:21:33,806 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:21:33,807 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:21:33,815 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 18:21:33,916 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:21:33,917 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:21:33,918 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:21:33,924 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:27:23,166 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 18:27:23,170 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:27:23,172 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:27:23,179 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 18:27:23,266 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:27:23,266 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:27:23,266 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:27:23,272 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:29:57,723 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 18:29:57,725 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:29:57,725 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:29:57,731 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 18:29:57,804 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:29:57,805 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:29:57,806 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:29:57,810 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:30:17,476 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 18:30:17,478 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:30:17,479 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:30:17,485 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 18:30:17,554 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:30:17,555 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:30:17,555 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:30:17,559 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:30:34,829 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 18:30:34,830 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:30:34,831 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:30:34,840 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 18:30:34,889 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:30:34,891 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:30:34,891 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:30:34,898 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:30:58,440 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 18:30:58,443 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:30:58,443 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:30:58,449 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 18:30:58,553 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:30:58,553 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:30:58,554 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:30:58,557 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:31:01,604 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 18:31:01,605 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:31:01,606 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:31:01,613 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 18:31:01,685 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:31:01,686 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:31:01,686 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:31:01,690 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:31:03,322 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 18:31:03,323 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:31:03,324 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:31:03,334 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 18:31:03,409 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:31:03,410 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:31:03,410 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:31:03,415 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:31:04,283 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 18:31:04,285 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:31:04,285 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:31:04,294 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 18:31:04,396 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:31:04,397 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:31:04,397 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:31:04,403 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:32:04,145 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 18:32:04,148 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:32:04,149 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:32:04,155 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 18:32:04,333 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:32:04,335 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:32:04,335 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:32:04,343 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:45:16,185 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 18:45:16,186 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:45:16,187 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:45:16,195 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 18:45:16,264 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:45:16,265 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:45:16,265 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:45:16,270 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:45:17,962 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-17 18:45:17,962 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:45:17,963 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:45:17,968 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-17 18:52:22,982 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:52:22,982 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:52:22,983 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:52:22,987 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:52:54,239 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:52:54,240 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:52:54,240 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:52:54,244 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:53:29,675 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:53:29,676 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:53:29,676 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:53:29,682 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:53:50,701 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:53:50,701 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:53:50,702 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:53:50,706 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:54:19,494 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:54:19,495 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:54:19,496 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:54:19,499 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:55:01,485 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:55:01,486 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:55:01,487 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:55:01,491 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:55:55,445 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:55:55,446 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:55:55,447 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:55:55,450 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:56:38,215 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:56:38,215 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:56:38,217 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:56:38,220 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:57:40,908 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:57:40,908 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:57:40,908 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:57:40,913 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:58:13,558 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:58:13,558 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:58:13,559 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:58:13,562 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:58:50,857 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:58:50,858 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:58:50,858 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:58:50,861 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:58:59,948 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:58:59,948 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:58:59,949 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:58:59,952 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 18:59:13,523 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 18:59:13,524 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 18:59:13,524 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 18:59:13,528 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 19:01:04,831 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 19:01:04,832 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 19:01:04,832 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 19:01:04,836 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 19:02:04,172 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 19:02:04,172 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 19:02:04,172 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 19:02:04,175 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 19:02:44,529 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 19:02:44,530 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 19:02:44,530 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 19:02:44,533 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 19:03:13,848 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 19:03:13,848 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 19:03:13,849 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 19:03:13,853 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 19:03:26,163 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 19:03:26,164 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 19:03:26,165 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 19:03:26,169 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 19:03:54,709 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 19:03:54,710 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 19:03:54,711 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 19:03:54,714 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 19:05:47,123 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 19:05:47,124 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 19:05:47,124 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 19:05:47,128 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 19:06:50,210 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 19:06:50,210 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 19:06:50,211 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 19:06:50,216 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 19:07:57,501 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 19:07:57,501 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 19:07:57,502 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 19:07:57,505 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 19:09:19,964 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 19:09:19,964 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 19:09:19,964 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 19:09:19,968 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 19:10:11,959 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 19:10:11,959 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 19:10:11,959 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 19:10:11,963 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 19:11:33,531 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 19:11:33,531 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 19:11:33,533 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 19:11:33,542 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 19:11:33,629 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 19:11:33,631 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 19:11:33,631 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 19:11:33,634 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-17 19:12:53,064 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-17 19:12:53,065 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 19:12:53,066 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 19:12:53,070 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10002, a_title='Spring、SpringMVC和 Springboot的区别', a_pubDate=Wed Apr 17 14:36:45 CST 2019, a_content='## Spring、SpringMVC和 Springboot的区别
+
+spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。
+
+spring mvc 是只是spring 处理web层请求的一个模块。
+
+
+因此他们的关系大概就是这样：
+
+spring mvc < spring <springboot。
+ 
+
+spring boot 我理解就是把 spring spring mvc spring data jpa 等等的一些常用的常用的基础框架组合起来，提供默认的配置，然后提供可插拔的设计，就是各种 starter ，来方便开发者使用这一系列的技术，套用官方的一句话， spring 家族发展到今天，已经很庞大了，作为一个开发者，如果想要使用 spring 家族一系列的技术，需要一个一个的搞配置，然后还有个版本兼容性问题，其实挺麻烦的，偶尔也会有小坑出现，其实蛮影响开发进度， spring boot 就是来解决这个问题，提供了一个解决方案吧，可以先不关心如何配置，可以快速的启动开发，进行业务逻辑编写，各种需要的技术，加入 starter 就配置好了，直接使用，可以说追求开箱即用的效果吧.
+
+ 
+
+spring 框架有超多的延伸产品例如 boot security jpa etc... 但它的基础就是 spring 的 ioc 和 aop ioc 提供了依赖注入的容器 aop 解决了面向横切面的编程 然后在此两者的基础上实现了其他延伸产品的高级功能 Spring MVC 呢是基于 Servlet 的一个 MVC 框架 主要解决 WEB 开发的问题 因为 Spring 的配置太复杂了 各种 XML JavaConfig hin 麻烦 于是懒人改变世界推出了 Spring boot 约定优于配置 简化了 spring 的配置流程.
+
+ 
+
+Spring 最初利用“工厂模式”（ DI ）和“代理模式”（ AOP ）解耦应用组件。大家觉得挺好用，于是按照这种模式搞了一个 MVC 框架（一些用 Spring 解耦的组件），用开发 web 应用（ SpringMVC ）。然后有发现每次开发都要搞很多依赖，写很多样板代码很麻烦，于是搞了一些懒人整合包（ starter ），这套就是 Spring Boot 。', u_name='18711577', a_browseCount=0, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}, Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}]
+2019-04-17 19:12:53,155 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-17 19:12:53,156 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-17 19:12:53,156 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-17 19:12:53,159 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]

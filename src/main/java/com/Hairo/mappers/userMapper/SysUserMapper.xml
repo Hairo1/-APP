@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.Hairo.mappers.userMapper.SysUserMapper">
+    <cache type="com.Hairo.util.RedisCache"/>
+
+    <sql id="All_field">
+      SELECT
+          `u_id`,
+          `u_name`,
+          `u_password`,
+          `u_email`,
+          `u_contact`
+       FROM
+          `hairo_db`.`t_user`
+    </sql>
+
+    <select id="getAllUser" resultType="SysUsers">
+      <include refid="All_field"/>
+    </select>
+
+    <select id="getUserByName" resultType="SysUsers">
+        <include refid="All_field"/>
+        WHERE `u_name` like #{u_name}
+    </select>
+
+    
+    <insert id="addUser" parameterType="SysUsers">
+        INSERT INTO `hairo_db`.`t_user` (
+          `u_name`,
+          `u_password`,
+          `u_email`,
+          `u_contact`
+        )
+        VALUES
+          (
+              #{u_name},
+              #{u_password},
+              #{u_email},
+              #{u_contact}
+          ) ;
+    </insert>
+
+    
+</mapper>

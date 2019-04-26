@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.Hairo.mappers.statisticsDataMapper.StatisticsDataMapper">
+    <select id="selectStatisticsdata" resultType="Statisticsdata">
+        SELECT
+          `s_articleSum`,
+          `s_browseSum`,
+          `s_labelSum`,
+          `s_userSum`,
+          `s_runDaysSum`
+        FROM
+          `hairo_db`.`t_statisticsdata`
+    </select>
+</mapper>

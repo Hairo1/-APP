@@ -1,0 +1,697 @@
+2019-04-16 00:00:13,381 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:00:13,486 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:00:13,486 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:00:13,489 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:00:47,062 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:00:47,064 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:00:47,064 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:00:47,068 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:01:34,190 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:01:34,190 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:01:34,191 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:01:34,195 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:02:50,119 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:02:50,119 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:02:50,120 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:02:50,125 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:03:02,823 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:03:02,823 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:03:02,823 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:03:02,826 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:03:09,934 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:03:09,936 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:03:09,936 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:03:09,940 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:03:16,191 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:03:16,191 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:03:16,191 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:03:16,195 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:05:31,526 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:05:31,527 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:05:31,527 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:05:31,531 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:06:43,816 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:06:43,816 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:06:43,816 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:06:43,819 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:07:01,255 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:07:01,255 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:07:01,256 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:07:01,259 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:07:28,463 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:07:28,463 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:07:28,464 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:07:28,469 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:07:31,495 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:07:31,496 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:07:31,497 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:07:31,501 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:07:35,023 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:07:35,023 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:07:35,024 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:07:35,028 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:07:38,526 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:07:38,527 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:07:38,527 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:07:38,529 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:07:41,063 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:07:41,063 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:07:41,064 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:07:41,068 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:07:43,280 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:07:43,280 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:07:43,280 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:07:43,284 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:07:45,943 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:07:45,944 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:07:45,944 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:07:45,960 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:07:48,552 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:07:48,552 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:07:48,552 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:07:48,556 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:07:52,334 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:07:52,334 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:07:52,335 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:07:52,338 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:07:54,549 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:07:54,550 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:07:54,550 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:07:54,553 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:07:56,368 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:07:56,369 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:07:56,369 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:07:56,372 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:07:58,389 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:07:58,390 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:07:58,390 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:07:58,393 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:08:01,054 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:08:01,054 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:08:01,055 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:08:01,058 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:12:50,008 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:12:50,008 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:12:50,009 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:12:50,012 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:13:32,224 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:13:32,224 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:13:32,224 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:13:32,227 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:13:59,063 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:13:59,064 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:13:59,064 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:13:59,067 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:14:38,246 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:14:38,247 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:14:38,248 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:14:38,251 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:14:41,894 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:14:41,894 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:14:41,895 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:14:41,898 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:14:44,480 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:14:44,480 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:14:44,480 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:14:44,484 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:14:47,199 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:14:47,200 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:14:47,200 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:14:47,203 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 00:17:22,713 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 00:17:22,714 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 00:17:22,714 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 00:17:22,718 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 01:30:25,729 INFO [main] com.mchange.v2.log.MLog.<clinit>(80) | MLog clients using log4j logging.
+2019-04-16 01:30:25,768 INFO [main] com.mchange.v2.c3p0.C3P0Registry.banner(204) | Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2019-04-16 01:31:27,011 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 01:31:27,012 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 01:31:27,013 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 01:31:27,056 INFO [http-nio-8080-exec-2] com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getPoolManager(462) | Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgev41a29g46le1qvgiwy|2fc07784, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgev41a29g46le1qvgiwy|2fc07784, idleConnectionTestPeriod -> 60, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/hairo_db?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 2, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2019-04-16 01:31:27,743 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 01:32:20,321 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 01:32:20,322 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 01:32:20,322 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 01:32:20,327 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 01:32:25,175 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 01:32:25,175 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 01:32:25,175 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 01:32:25,180 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 01:33:13,747 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/newUser/
+2019-04-16 01:33:13,748 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : POST
+2019-04-16 01:33:13,748 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 01:33:13,748 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(41) | name:u_name	value:Hairo
+2019-04-16 01:33:13,748 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(41) | name:u_password	value:3d2d0d46d2470480ff25d73a12f06fc6
+2019-04-16 01:33:13,748 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(41) | name:u_email	value:hairo@qq.com
+2019-04-16 01:33:13,749 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(41) | name:u_contact	value:hairo@qq.com
+2019-04-16 01:33:13,834 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.throwing(62) | 抛出的异常是:class org.mybatis.spring.MyBatisSystemException
+2019-04-16 01:34:05,884 INFO [main] com.mchange.v2.log.MLog.<clinit>(80) | MLog clients using log4j logging.
+2019-04-16 01:34:05,904 INFO [main] com.mchange.v2.c3p0.C3P0Registry.banner(204) | Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2019-04-16 01:34:13,561 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/newUser/
+2019-04-16 01:34:13,561 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : POST
+2019-04-16 01:34:13,561 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 01:34:13,561 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(41) | name:u_name	value:Hairo
+2019-04-16 01:34:13,561 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(41) | name:u_password	value:3d2d0d46d2470480ff25d73a12f06fc6
+2019-04-16 01:34:13,562 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(41) | name:u_email	value:hairo@qq.com
+2019-04-16 01:34:13,562 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(41) | name:u_contact	value:hairo@qq.com
+2019-04-16 01:34:13,595 INFO [http-nio-8080-exec-1] com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getPoolManager(462) | Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgev41a29g8wgc1vqx2bw|5eb97ced, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgev41a29g8wgc1vqx2bw|5eb97ced, idleConnectionTestPeriod -> 60, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/hairo_db?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 2, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2019-04-16 01:34:14,289 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : 1
+2019-04-16 01:50:37,600 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 01:50:37,601 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 01:50:37,601 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 01:50:37,619 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 01:50:38,768 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 01:50:38,769 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 01:50:38,770 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 01:50:38,773 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 01:51:44,315 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/Hairo/userpwd/3d2d0d46d2470480ff25d73a12f06fc6
+2019-04-16 01:51:44,315 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 01:51:44,315 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 01:51:44,320 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10006, u_name='Hairo', u_password='3d2d0d46d2470480ff25d73a12f06fc6', u_email='hairo@qq.com', u_contact='hairo@qq.com'}
+2019-04-16 01:55:39,543 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-16 01:55:39,544 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 01:55:39,544 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 01:55:39,584 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}]
+2019-04-16 01:57:09,675 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-16 01:57:09,679 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 01:57:09,679 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 01:57:09,685 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}]
+2019-04-16 02:01:15,185 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-16 02:01:15,185 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 02:01:15,185 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 02:01:15,197 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}]
+2019-04-16 02:06:49,478 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-16 02:06:49,478 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 02:06:49,479 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 02:06:49,485 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}]
+2019-04-16 15:06:53,099 INFO [main] com.mchange.v2.log.MLog.<clinit>(80) | MLog clients using log4j logging.
+2019-04-16 15:06:53,187 INFO [main] com.mchange.v2.c3p0.C3P0Registry.banner(204) | Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2019-04-16 15:07:57,158 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 15:07:57,159 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 15:07:57,159 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 15:07:57,242 INFO [http-nio-8080-exec-1] com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getPoolManager(462) | Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgev41a2a9a5iv1qee72o|537cb3eb, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgev41a2a9a5iv1qee72o|537cb3eb, idleConnectionTestPeriod -> 60, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/hairo_db?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 1000, maxStatementsPerConnection -> 0, minPoolSize -> 2, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2019-04-16 15:07:58,567 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 15:14:43,057 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-16 15:14:43,057 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 15:14:43,058 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 15:14:43,111 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}]
+2019-04-16 15:15:21,041 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-16 15:15:21,043 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 15:15:21,045 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 15:15:21,056 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}]
+2019-04-16 15:19:10,976 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/sysUser/login/username/18711577/userpwd/113f4ce16085b8281364f6e527b1ff3f
+2019-04-16 15:19:10,978 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 15:19:10,979 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 15:19:10,986 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : SysUsers{u_id=10004, u_name='18711577', u_password='113f4ce16085b8281364f6e527b1ff3f', u_email='187115779@qq.com', u_contact='123456789'}
+2019-04-16 15:38:57,325 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-16 15:38:57,326 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-16 15:38:57,327 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 15:38:57,328 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : POST
+2019-04-16 15:38:57,328 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 15:38:57,329 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 15:38:57,349 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}]
+2019-04-16 15:38:57,515 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-16 15:39:07,573 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-16 15:39:07,573 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 15:39:07,575 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 15:39:07,583 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}]
+2019-04-16 15:39:07,676 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-16 15:39:07,677 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : POST
+2019-04-16 15:39:07,679 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 15:39:07,684 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-16 15:40:21,467 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-16 15:40:21,468 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 15:40:21,470 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 15:40:21,488 INFO [http-nio-8080-exec-7] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}]
+2019-04-16 15:40:21,551 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-16 15:40:21,552 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : POST
+2019-04-16 15:40:21,552 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 15:40:21,560 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-16 15:43:14,766 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-16 15:43:14,767 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 15:43:14,768 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 15:43:14,775 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}]
+2019-04-16 15:43:14,872 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-16 15:43:14,873 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : POST
+2019-04-16 15:43:14,874 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 15:43:14,881 INFO [http-nio-8080-exec-10] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-16 15:44:56,875 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-16 15:44:56,877 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 15:44:56,878 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 15:44:56,913 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}]
+2019-04-16 15:45:14,924 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/articles/getAllArticles
+2019-04-16 15:45:14,925 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 15:45:14,925 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 15:45:14,934 INFO [http-nio-8080-exec-4] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Articles{a_id=10000, a_title='海羅博客测试', a_pubDate=Thu Apr 11 13:28:22 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅', a_browseCount=122, a_commentCount=0, a_likeCount=0, l_name='JAVA'}, Articles{a_id=10001, a_title='海羅测试1号', a_pubDate=Thu Apr 11 13:37:12 CST 2019, a_content='```java
+package com.Hairo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value=”com.Hairo.mappers”)//扫描mapper包
+@EnableAutoConfiguration//自动载入应用程序所需的所有Bean，当使用Exclude这个属性时，是禁止自动配置某个类
+public class HairoApplication {
+public static void main(String[] args) {
+SpringApplication.run(HairoApplication.class, args);
+}
+
+}
+```', u_name='海羅1号', a_browseCount=22, a_commentCount=0, a_likeCount=0, l_name='设计模式'}]
+2019-04-16 15:45:15,053 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-16 15:45:15,055 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : POST
+2019-04-16 15:45:15,055 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 15:45:15,061 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-16 15:53:00,272 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-16 15:53:00,274 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : POST
+2019-04-16 15:53:00,275 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 15:53:00,280 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-16 15:53:43,577 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-16 15:53:43,578 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : POST
+2019-04-16 15:53:43,579 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 15:53:43,585 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-16 15:55:37,627 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-16 15:55:37,628 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 15:55:37,628 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 15:55:37,636 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-16 15:56:12,061 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-16 15:56:12,062 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 15:56:12,063 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 15:56:12,067 INFO [http-nio-8080-exec-5] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-16 15:56:29,377 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-16 15:56:29,378 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 15:56:29,379 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 15:56:29,383 INFO [http-nio-8080-exec-3] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-16 15:56:46,803 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-16 15:56:46,804 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 15:56:46,805 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 15:56:46,810 INFO [http-nio-8080-exec-6] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-16 15:56:59,924 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-16 15:56:59,925 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 15:56:59,926 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 15:56:59,932 INFO [http-nio-8080-exec-8] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-16 15:57:37,626 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-16 15:57:37,627 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 15:57:37,628 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 15:57:37,632 INFO [http-nio-8080-exec-9] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-16 15:59:53,899 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-16 15:59:53,899 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 15:59:53,901 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 15:59:53,906 INFO [http-nio-8080-exec-1] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]
+2019-04-16 16:00:38,704 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(35) | URL : http://192.168.0.101:8080/api/label/labels/
+2019-04-16 16:00:38,704 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(36) | HTTP_METHOD : GET
+2019-04-16 16:00:38,705 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doBefore(37) | IP : 192.168.0.101
+2019-04-16 16:00:38,710 INFO [http-nio-8080-exec-2] com.Hairo.util.aop.LogAspect.doAfterReturning(52) | 返回内容 : [Label{l_name='HTML', l_count=0}, Label{l_name='JAVA', l_count=1}, Label{l_name='JQUERY', l_count=0}, Label{l_name='大数据', l_count=0}, Label{l_name='数据结构', l_count=0}, Label{l_name='设计模式', l_count=1}]

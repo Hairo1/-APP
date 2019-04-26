@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.Hairo.mappers.articlesMapper.ArticlesMapper">
+    <cache type="com.Hairo.util.RedisCache"/>
+    <sql id="articlesFieid">
+          `a_id`,
+          `a_title`,
+          `a_pubDate`,
+          `a_content`,
+          `u_name`,
+          `a_browseCount`,
+          `a_commentCount`,
+          `a_likeCount`,
+          `l_name`
+    </sql>
+
+    <update id="updateActicle" parameterType="Blogroll">
+        UPDATE
+          `hairo_db`.`t_articles`
+        SET
+          `a_title` = #{a_title},
+          `a_content` = #{a_content},
+          `a_browseCount` = #{a_browseCount},
+          `a_commentCount` = #{a_commentCount},
+          `a_likeCount` =#{a_likeCount},
+          `l_name` = #{l_name},
+          `a_audit` = #{a_audit}
+        WHERE `a_id` = #{a_id} ;
+    </update>
+
+    <delete id="delectActicle" parameterType="integer">
+        DELETE
+        FROM
+          `hairo_db`.`t_articles`
+        WHERE `a_id` = #{articleId} ;
+    </delete>
+
+    <select id="selectAllArticles" resultType="Articles">
+        SELECT
+          <include refid="articlesFieid"/>
+        FROM
+          `hairo_db`.`t_articles`
+        where `a_audit` =1
+         ORDER BY a_pubDate DESC
+        LIMIT #{pageNum}, #{pageSize} ;
+    </select>
+
+    <select id="selectArticlesById" resultType="Articles" parameterType="integer">
+        SELECT
+        <include refid="articlesFieid"/>
+        FROM
+          `hairo_db`.`t_articles`
+         WHERE a_id = #{articlesId}
+    </select>
+
+    <select id="selectAllArticlesByAuthor" resultType="Articles">
+        SELECT
+        <include refid="articlesFieid"/>
+        FROM
+        `hairo_db`.`t_articles`
+        where u_name like #{author}
+        ORDER BY a_pubDate DESC
+        LIMIT #{pageNum}, #{pageSize} ;
+    </select>
+    <select id="selectArticleCount" resultType="integer">
+      SELECT
+          COUNT(`a_id`)
+        FROM
+          `hairo_db`.`t_articles`
+    </select>
+    <select id="selectArticleCountByAuthor" resultType="integer">
+        SELECT
+          COUNT(`a_id`)
+        FROM
+          `hairo_db`.`t_articles`
+        WHERE u_name = #{author}
+    </select>
+    <select id="selectAllArticlesByLabel" resultType="Articles">
+        SELECT
+          <include refid="articlesFieid"/>
+        FROM
+          `hairo_db`.`t_articles`
+        where l_name like #{label}
+        ORDER BY a_pubDate DESC
+        LIMIT #{pageNum}, #{pageSize} ;
+    </select>
+    <select id="selectArticleHot8" resultType="Articles" useCache="false">
+        SELECT
+          <include refid="articlesFieid"/>
+        FROM
+          `hairo_db`.`t_articles`
+        ORDER BY   a_browseCount DESC
+        LIMIT 0, 8 ;
+    </select>
+
+    <select id="selectRandomArticle" resultType="Articles" useCache="false">
+      SELECT
+        a_id,a_title
+      FROM
+        t_articles
+      WHERE a_id >= (
+          (SELECT
+            MAX(a_id)
+          FROM
+            t_articles) -
+          (SELECT
+            MIN(a_id)
+          FROM
+            t_articles)
+        ) * RAND() +
+        (SELECT
+          MIN(a_id)
+        FROM
+          t_articles)
+      LIMIT 8 ;
+    </select>
+
+    <insert id="insertArticle" parameterType="Articles">
+        INSERT INTO `hairo_db`.`t_articles` (
+          `a_title`,
+          `a_pubDate`,
+          `a_content`,
+          `u_name`,
+          `l_name`
+        )
+        VALUES
+          (
+              #{a_title},
+              #{a_pubDate},
+              #{a_content},
+              #{u_name},
+              #{l_name}
+          ) ;
+    </insert>
+</mapper>
