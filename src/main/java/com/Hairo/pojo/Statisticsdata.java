@@ -1,5 +1,6 @@
 package com.Hairo.pojo;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -10,7 +11,7 @@ import java.util.Date;
  * 统计数据实体
  */
 
-public class Statisticsdata {
+public class Statisticsdata implements Serializable {
 
     private Integer s_articleSum;
     private Integer s_browseSum;

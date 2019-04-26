@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.Hairo.mappers.messageBoardMapper.MessageBoardMapper">
+    <cache type="com.Hairo.util.RedisCache"/>
+    <insert id="insertMessage" parameterType="MessageBoard">
+         INSERT INTO `hairo_db`.`t_messageboard` (
+                `m_userName`,
+                `m_email`,
+                `m_url`,
+                `m_content`,
+                `m_date`,
+                `m_portraitUrl`
+                )
+                VALUES
+                (
+                #{m_userName},
+                #{m_email},
+                #{m_url},
+                #{m_content},
+                #{m_date},
+                #{m_portraitUrl}
+                ) ;
+          </insert>
+    <select id="selectAllMessageBoard" resultType="MessageBoard">
+        SELECT
+          `m_id`,
+          `m_userName`,
+          `m_email`,
+          `m_url`,
+          `m_content`,
+          `m_date`,
+          `m_portraitUrl`
+        FROM
+          `hairo_db`.`t_messageboard`
+        LIMIT 0, 100 ;
+    </select>
+
+</mapper>

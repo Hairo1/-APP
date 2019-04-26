@@ -22,6 +22,7 @@ public class Articles implements Serializable {
     private Integer a_commentCount;//评论条数
     private Integer a_likeCount;//点赞个数
     private String l_name;//标签云昵称
+    private String a_articleImgUrl;
 
     @Override
     public String toString() {
@@ -35,6 +36,7 @@ public class Articles implements Serializable {
                 ", a_commentCount=" + a_commentCount +
                 ", a_likeCount=" + a_likeCount +
                 ", l_name='" + l_name + '\'' +
+                ", a_articleImgUrl='" + a_articleImgUrl + '\'' +
                 '}';
     }
 
@@ -74,6 +76,14 @@ public class Articles implements Serializable {
         this.l_name = l_name;
     }
 
+    public void setA_articleImgUrl(String a_articleImgUrl) {
+        this.a_articleImgUrl = a_articleImgUrl;
+    }
+
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
+
     public Integer getA_id() {
         return a_id;
     }
@@ -108,5 +118,9 @@ public class Articles implements Serializable {
 
     public String getL_name() {
         return l_name;
+    }
+
+    public String getA_articleImgUrl() {
+        return a_articleImgUrl;
     }
 }

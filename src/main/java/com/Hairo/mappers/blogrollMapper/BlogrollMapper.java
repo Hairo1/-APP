@@ -1,4 +1,4 @@
-package com.Hairo.mappers.BlogrollMapper;
+package com.Hairo.mappers.blogrollMapper;
 
 import com.Hairo.pojo.Blogroll;
 import org.apache.ibatis.annotations.Mapper;

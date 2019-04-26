@@ -1,6 +1,6 @@
 package com.Hairo.service.impl;
 
-import com.Hairo.mappers.BlogrollMapper.BlogrollMapper;
+import com.Hairo.mappers.blogrollMapper.BlogrollMapper;
 import com.Hairo.pojo.Blogroll;
 import com.Hairo.service.BlogrollService;
 import org.springframework.beans.factory.annotation.Autowired;

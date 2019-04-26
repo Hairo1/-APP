@@ -14,7 +14,8 @@
           `a_browseCount`,
           `a_commentCount`,
           `a_likeCount`,
-          `l_name`
+          `l_name`,
+          a_articleImgUrl
     </sql>
 
     <update id="updateActicle" parameterType="Blogroll">
