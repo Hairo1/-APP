@@ -1,27 +1,17 @@
 package com.Hairo.service.impl;
-
 import com.Hairo.mappers.articlesMapper.ArticlesMapper;
-import com.Hairo.pojo.Articles;
-import com.Hairo.service.ArticlesService;
 import com.Hairo.service.PublicService;
 import com.Hairo.util.ApplicationContextHolder;
-import com.Hairo.util.SerializeUtil;
-import com.alibaba.fastjson.JSON;
-import com.fasterxml.jackson.annotation.JsonAutoDetect;
-import com.fasterxml.jackson.annotation.PropertyAccessor;
-import com.fasterxml.jackson.databind.ObjectMapper;
+import com.Hairo.util.HairoUtil;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.data.redis.serializer.*;
 import org.springframework.stereotype.Service;
-
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
@@ -36,7 +26,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 public class PublicServiceImpl implements PublicService {
     private static Logger log = Logger.getLogger(PublicServiceImpl.class);
     private final ReadWriteLock readWriteLock = new ReentrantReadWriteLock();
-    private static RedisTemplate<Object, Object> redisTemplate;
+   // private static RedisTemplate<Object, Object> redisTemplate;
     @Autowired
     private ArticlesMapper articlesMapper;
 
@@ -85,7 +75,7 @@ public class PublicServiceImpl implements PublicService {
 
     @Override
     public void articleLikePlus1(Integer articleId) {
-        redisTemplate.opsForList().rightPush("likePlus1", articleId);
+        getRedisTemplate().opsForList().rightPush("likePlus1", articleId);
     }
 
     @Override
@@ -117,35 +107,39 @@ public class PublicServiceImpl implements PublicService {
         redisTemplate.opsForValue().set("randomArticle",articlesMapper.selectRandomArticle());
     }
 
+    @Override
+    public Integer articlePraise(Integer articleId, String iP) {
+        //IP不正确|文章ID有误
+        if(articleId == null || articleId ==0 || HairoUtil.isIP(iP)==false){
+            return -1;
+        }
+        RedisTemplate redisTemplate = getRedisTemplate();
+        Object o = redisTemplate.opsForValue().get(articleId + ":" + iP);
+        //System.out.println(o+"*****************************************");
+        //48小时内已经对当前文章点过赞
+        if(o != null){
+            return 0;
+        }
+        //文章点赞更新
+        articlesMapper.updateArticlePraise(articleId);
+        //记录点赞文章和IP,保存48小时60*60*48
+        redisTemplate.opsForValue().set(articleId+":"+iP, 1,60*60*48,TimeUnit.SECONDS);
+        return 1;
+    }
+
 
     /**
      * 获取Redis实例
      * @return
      */
     private synchronized RedisTemplate getRedisTemplate() {
-        if (redisTemplate == null) {
-            redisTemplate = ApplicationContextHolder.getBean("redisTemplate");
+            RedisTemplate<Object, Object> redisTemplate = ApplicationContextHolder.getBean("redisTemplate");
             redisTemplate.setKeySerializer(new JdkSerializationRedisSerializer());
             redisTemplate.setValueSerializer(new JdkSerializationRedisSerializer());
-//            LettuceConnectionFactory jedisConnectionFactory = (LettuceConnectionFactory) redisTemplate.getConnectionFactory();
-//            //序列化
-//            RedisSerializer<String> redisSerializer = new StringRedisSerializer();
-//            redisTemplate.setKeySerializer(redisSerializer);
-//            redisTemplate.setValueSerializer(redisSerializer);
-//            //不设置默认会把JSON转换为hasMap
-//            redisTemplate.setHashKeySerializer(redisSerializer);
-//
-//            Jackson2JsonRedisSerializer jackson2JsonRedisSerializer = new Jackson2JsonRedisSerializer(Object.class);
-//            ObjectMapper objectMapper = new ObjectMapper();
-//            objectMapper.setVisibility(PropertyAccessor.ALL,JsonAutoDetect.Visibility.ANY);
-//            objectMapper.enableDefaultTyping(ObjectMapper.DefaultTyping.NON_FINAL);
-//            jackson2JsonRedisSerializer.setObjectMapper(objectMapper);
-//            redisTemplate.setHashValueSerializer(redisSerializer);
-            //jedisConnectionFactory.setDatabase(3);//选择第3个数据库作为数据缓存DB
-            //redisTemplate.setConnectionFactory(jedisConnectionFactory);
-            //jedisConnectionFactory.resetConnection();//重置数据库
-            //System.out.println("切换redisDB3");
-        }
+            LettuceConnectionFactory jedisConnectionFactory = (LettuceConnectionFactory) redisTemplate.getConnectionFactory();
+            jedisConnectionFactory.setDatabase(3);//选择第九个数据库作为其他缓存,防止mybatis刷新缓存
+            redisTemplate.setConnectionFactory(jedisConnectionFactory);
+            jedisConnectionFactory.resetConnection();//重置数据库
         return redisTemplate;
     }
 

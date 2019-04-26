@@ -2,6 +2,7 @@ package com.Hairo.service;
 
 import com.Hairo.pojo.Articles;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
@@ -76,4 +77,11 @@ public interface PublicService {
      * @return
      */
     public void setRandomArticle();
+
+    /**
+     * 文章点赞
+     * @param articleId 文章ID
+     * @param iP 客户端ID(36小时内只能点击一次赞)
+     */
+    public Integer articlePraise(Integer articleId, String iP);
 }

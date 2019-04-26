@@ -31,6 +31,12 @@
           `a_audit` = #{a_audit}
         WHERE `a_id` = #{a_id} ;
     </update>
+    <update id="updateArticlePraise" parameterType="integer">
+            UPDATE
+              `hairo_db`.`t_articles`
+               set `a_likeCount` = a_likeCount + 1
+            where a_id = #{articleId}
+    </update>
 
     <delete id="delectActicle" parameterType="integer">
         DELETE

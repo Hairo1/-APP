@@ -29,7 +29,7 @@ public class RedisCache implements Cache {
     /** The ReadWriteLock. */
     private final ReadWriteLock readWriteLock = new ReentrantReadWriteLock();
 
-    private static RedisTemplate<Object, Object> redisTemplate;
+  //  private static RedisTemplate<Object, Object> redisTemplate;
 
     private String id;
     public RedisCache(final String id) {
@@ -75,6 +75,7 @@ public class RedisCache implements Cache {
         RedisTemplate redisTemplate = getRedisTemplate();
         redisTemplate.execute((RedisCallback) connection -> {
             connection.flushDb();
+            System.out.println("\n******************************检测到-增删改-操作,刷新缓存(RedisDB->9)****************************\n");
             return null;
         });
     }
@@ -91,14 +92,12 @@ public class RedisCache implements Cache {
 
 
     private synchronized RedisTemplate getRedisTemplate() {
-        if (redisTemplate == null) {
-            redisTemplate = ApplicationContextHolder.getBean("redisTemplate");
+            RedisTemplate<Object, Object> redisTemplate = ApplicationContextHolder.getBean("redisTemplate");
             redisTemplate.setValueSerializer(new JdkSerializationRedisSerializer());
-          //  LettuceConnectionFactory jedisConnectionFactory = (LettuceConnectionFactory) redisTemplate.getConnectionFactory();
-           // jedisConnectionFactory.setDatabase(9);//选择第九个数据库作为mybatis缓存DB
-           // redisTemplate.setConnectionFactory(jedisConnectionFactory);
-           // jedisConnectionFactory.resetConnection();//重置数据库
-        }
+            LettuceConnectionFactory jedisConnectionFactory = (LettuceConnectionFactory) redisTemplate.getConnectionFactory();
+            jedisConnectionFactory.setDatabase(9);//选择第九个数据库作为mybatis缓存DB
+            redisTemplate.setConnectionFactory(jedisConnectionFactory);
+            jedisConnectionFactory.resetConnection();//重置数据库
         return redisTemplate;
     }
 

@@ -8,6 +8,7 @@ import com.Hairo.service.SysUserService;
 import com.sun.deploy.net.HttpResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpRequest;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletResponse;
@@ -133,4 +134,9 @@ public class ArticlesController {
         return publicService.getRandomArticle();
     }
 
+
+    @RequestMapping(value = "/articlePraise/{articleId}/{ip}/",method = RequestMethod.PUT)
+    public Object articlePraise(@PathVariable("articleId") Integer articleId, @PathVariable("ip") String iP){
+        return publicService.articlePraise(articleId,iP);
+    }
 }

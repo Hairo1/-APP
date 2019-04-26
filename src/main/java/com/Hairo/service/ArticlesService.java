@@ -77,4 +77,11 @@ public interface ArticlesService {
      */
     public Integer updateActicle(Articles article);
 
+    /**
+     * 更新文章点赞数量
+     * @param articleId
+     * @return
+     */
+    public Integer updateArticlePraise(Integer articleId);
+
 }

@@ -88,4 +88,11 @@ public interface ArticlesMapper {
      * @return
      */
     public List<Articles> selectRandomArticle();
+
+    /**
+     * 批量更新文章点赞数量
+     * @param articleId 文章ID列表
+     * @return
+     */
+    public Integer updateArticlePraise(Integer articleId);
 }

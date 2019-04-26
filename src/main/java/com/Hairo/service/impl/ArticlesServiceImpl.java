@@ -71,4 +71,12 @@ public class ArticlesServiceImpl implements ArticlesService {
         if(article==null){return -1;}
         return articlesMapper.updateActicle(article);
     }
+
+    @Override
+    public Integer updateArticlePraise(Integer articleId) {
+        if(articleId == null || articleId == 0){
+            return 0;
+        }
+        return articlesMapper.updateArticlePraise(articleId);
+    }
 }
