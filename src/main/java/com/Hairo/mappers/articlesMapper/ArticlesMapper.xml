@@ -4,7 +4,9 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.Hairo.mappers.articlesMapper.ArticlesMapper">
-    <cache type="com.Hairo.util.RedisCache"/>
+    <!--<cache type="com.Hairo.util.RedisCache"/>-->
+    <!--开启原生二级缓存-->
+    <cache />
     <sql id="articlesFieid">
           `a_id`,
           `a_title`,
@@ -15,20 +17,23 @@
           `a_commentCount`,
           `a_likeCount`,
           `l_name`,
+          a_start,
           a_articleImgUrl
     </sql>
 
     <update id="updateActicle" parameterType="Blogroll">
         UPDATE
           `hairo_db`.`t_articles`
-        SET
-          `a_title` = #{a_title},
-          `a_content` = #{a_content},
-          `a_browseCount` = #{a_browseCount},
-          `a_commentCount` = #{a_commentCount},
-          `a_likeCount` =#{a_likeCount},
-          `l_name` = #{l_name},
-          `a_audit` = #{a_audit}
+        <set>
+            <if test="a_title != null"> `a_title` = #{a_title},</if>
+            <if test="a_content != null">`a_content` = #{a_content},</if>
+            <if test="a_browseCount != 0 and a_browseCount !=null">`a_browseCount` = #{a_browseCount},</if>
+            <if test="a_commentCount != null and a_commentCount != 0"> `a_commentCount` = #{a_commentCount},</if>
+            <if test="a_likeCount != null and a_likeCount != 0"> `a_likeCount` =#{a_likeCount},</if>
+            <if test="a_start != null and a_start != 0">  a_start = #{ a_start},</if>
+            <if test="l_name != null"> `l_name` = #{l_name},</if>
+            <if test="a_articleImgUrl != null"> `a_articleImgUrl` = #{a_articleImgUrl}</if>
+        </set>
         WHERE `a_id` = #{a_id} ;
     </update>
     <update id="updateArticlePraise" parameterType="integer">
@@ -36,6 +41,15 @@
               `hairo_db`.`t_articles`
                set `a_likeCount` = a_likeCount + 1
             where a_id = #{articleId}
+    </update>
+    <update id="updateArticlePageView">
+        <foreach item="value" index="key" collection="map.entrySet()" separator=";" >
+            UPDATE
+               `hairo_db`.`t_articles`
+            SET
+            <if test="value!=null"> `a_browseCount` = a_browseCount + #{value}</if>
+            WHERE `a_id` = #{key}
+        </foreach>
     </update>
 
     <delete id="delectActicle" parameterType="integer">
@@ -50,7 +64,7 @@
           <include refid="articlesFieid"/>
         FROM
           `hairo_db`.`t_articles`
-        where `a_audit` =1
+        where `a_start` =#{state}
          ORDER BY a_pubDate DESC
         LIMIT #{pageNum}, #{pageSize} ;
     </select>
@@ -60,15 +74,15 @@
         <include refid="articlesFieid"/>
         FROM
           `hairo_db`.`t_articles`
-         WHERE a_id = #{articlesId}
+         WHERE a_id = #{articlesId}  and  `a_start` = 1
     </select>
 
     <select id="selectAllArticlesByAuthor" resultType="Articles">
         SELECT
-        <include refid="articlesFieid"/>
+          <include refid="articlesFieid"/>
         FROM
-        `hairo_db`.`t_articles`
-        where u_name like #{author}
+            `hairo_db`.`t_articles`
+        where u_name like #{author} and `a_start` = 1
         ORDER BY a_pubDate DESC
         LIMIT #{pageNum}, #{pageSize} ;
     </select>
@@ -77,38 +91,40 @@
           COUNT(`a_id`)
         FROM
           `hairo_db`.`t_articles`
+          where `a_start` =1
     </select>
     <select id="selectArticleCountByAuthor" resultType="integer">
         SELECT
           COUNT(`a_id`)
         FROM
           `hairo_db`.`t_articles`
-        WHERE u_name = #{author}
+        WHERE u_name = #{author} and `a_start` =1
     </select>
     <select id="selectAllArticlesByLabel" resultType="Articles">
         SELECT
           <include refid="articlesFieid"/>
         FROM
           `hairo_db`.`t_articles`
-        where l_name like #{label}
+        where l_name like #{label} and `a_start` =1
         ORDER BY a_pubDate DESC
         LIMIT #{pageNum}, #{pageSize} ;
     </select>
-    <select id="selectArticleHot8" resultType="Articles" useCache="false">
+    <select id="selectArticleHot8" resultType="Articles">
         SELECT
           <include refid="articlesFieid"/>
         FROM
           `hairo_db`.`t_articles`
+        where `a_start` =1
         ORDER BY   a_browseCount DESC
         LIMIT 0, 8 ;
     </select>
 
-    <select id="selectRandomArticle" resultType="Articles" useCache="false">
+    <select id="selectRandomArticle" resultType="Articles" >
       SELECT
         a_id,a_title
       FROM
         t_articles
-      WHERE a_id >= (
+      WHERE  `a_start` =1 and a_id >= (
           (SELECT
             MAX(a_id)
           FROM
@@ -124,6 +140,13 @@
           t_articles)
       LIMIT 8 ;
     </select>
+    <select id="selectArticleCountByLabel" resultType="integer">
+      SELECT
+          COUNT(`a_id`)
+        FROM
+          `hairo_db`.`t_articles`
+          where `a_start` =1 and l_name = #{label}
+    </select>
 
     <insert id="insertArticle" parameterType="Articles">
         INSERT INTO `hairo_db`.`t_articles` (
@@ -131,7 +154,8 @@
           `a_pubDate`,
           `a_content`,
           `u_name`,
-          `l_name`
+          `l_name`,
+          a_articleImgUrl
         )
         VALUES
           (
@@ -139,7 +163,8 @@
               #{a_pubDate},
               #{a_content},
               #{u_name},
-              #{l_name}
+              #{l_name},
+              #{a_articleImgUrl}
           ) ;
     </insert>
 </mapper>

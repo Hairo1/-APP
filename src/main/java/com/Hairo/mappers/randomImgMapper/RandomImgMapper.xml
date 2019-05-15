@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.Hairo.mappers.randomImgMapper.RandomImgMapper">
+    <!--开启原生二级缓存-->
+    <cache />
+    <insert id="insertRandomImg">
+        INSERT INTO `hairo_db`.`t_randomimg` (
+          `tag`,
+          `imgUrl`,
+          `imgDescribe`
+        )
+        VALUES
+          (
+           #{tag},
+           #{imgUrl},
+           #{imgDescribe}
+          )
+    </insert>
+
+    <delete id="delectRandomImg">
+        DELETE
+        FROM
+          `hairo_db`.`t_randomimg`
+        WHERE `id` = #{id} ;
+    </delete>
+    <select id="selectAllRandomImg" resultType="com.Hairo.pojo.RandomImg">
+        SELECT
+          `id`,
+          `tag`,
+          `imgUrl`,
+          `imgDescribe`
+        FROM
+          `hairo_db`.`t_randomimg`
+        LIMIT #{page}, #{pageSize} ;
+    </select>
+    <select id="selectRandomImg" resultType="java.lang.String">
+
+      SELECT imgUrl FROM `t_randomimg` WHERE tag = #{tag} ORDER BY RAND() LIMIT 1
+    </select>
+</mapper>

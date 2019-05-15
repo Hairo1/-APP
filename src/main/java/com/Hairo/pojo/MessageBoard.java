@@ -1,91 +1,90 @@
 package com.Hairo.pojo;
 
-import java.io.Serializable;
 import java.util.Date;
 
 /**
  * 项目名称： Hairo
  * 作 者   ： Hairo
- * 创建时间: 2019/4/26 16:17
+ * 创建时间: 2019/5/13 23:49
  * 作用描述:
- * 留言板块实体
  */
 
-public class MessageBoard implements Serializable {
-    private Integer m_id;
-    private String   m_userName;
-    private String m_email;
-    private String   m_url;
-    private String   m_content;
-    private Date  m_date;
-    private  String  m_portraitUrl;
+public class MessageBoard {
+
+   private Integer  message_id;
+    private String message_content;
+    private Date message_date;
+    private String message_userImgUrl;
+    private String message_userUrl;
+    private String message_userName;
+    private Integer message_state;
 
     @Override
     public String toString() {
-        return "MessageBoard{" +
-                "m_id=" + m_id +
-                ", m_userName='" + m_userName + '\'' +
-                ", m_email='" + m_email + '\'' +
-                ", m_url='" + m_url + '\'' +
-                ", m_content='" + m_content + '\'' +
-                ", m_date=" + m_date +
-                ", m_portraitUrl='" + m_portraitUrl + '\'' +
+        return "MessageBoardMapper{" +
+                "message_id=" + message_id +
+                ", message_content='" + message_content + '\'' +
+                ", message_date=" + message_date +
+                ", message_userImgUrl='" + message_userImgUrl + '\'' +
+                ", message_userUrl='" + message_userUrl + '\'' +
+                ", message_userName='" + message_userName + '\'' +
+                ", message_state=" + message_state +
                 '}';
     }
 
-    public void setM_id(Integer m_id) {
-        this.m_id = m_id;
+    public void setMessage_id(Integer message_id) {
+        this.message_id = message_id;
     }
 
-    public void setM_userName(String m_userName) {
-        this.m_userName = m_userName;
+    public void setMessage_content(String message_content) {
+        this.message_content = message_content;
     }
 
-    public void setM_email(String m_email) {
-        this.m_email = m_email;
+    public void setMessage_date(Date message_date) {
+        this.message_date = message_date;
     }
 
-    public void setM_url(String m_url) {
-        this.m_url = m_url;
+    public void setMessage_userImgUrl(String message_userImgUrl) {
+        this.message_userImgUrl = message_userImgUrl;
     }
 
-    public void setM_content(String m_content) {
-        this.m_content = m_content;
+    public void setMessage_userUrl(String message_userUrl) {
+        this.message_userUrl = message_userUrl;
     }
 
-    public void setM_date(Date m_date) {
-        this.m_date = m_date;
+    public void setMessage_userName(String message_userName) {
+        this.message_userName = message_userName;
     }
 
-    public void setM_portraitUrl(String m_portraitUrl) {
-        this.m_portraitUrl = m_portraitUrl;
+    public void setMessage_state(Integer message_state) {
+        this.message_state = message_state;
     }
 
-    public Integer getM_id() {
-        return m_id;
+    public Integer getMessage_id() {
+        return message_id;
     }
 
-    public String getM_userName() {
-        return m_userName;
+    public String getMessage_content() {
+        return message_content;
     }
 
-    public String getM_email() {
-        return m_email;
+    public Date getMessage_date() {
+        return message_date;
     }
 
-    public String getM_url() {
-        return m_url;
+    public String getMessage_userImgUrl() {
+        return message_userImgUrl;
     }
 
-    public String getM_content() {
-        return m_content;
+    public String getMessage_userUrl() {
+        return message_userUrl;
     }
 
-    public Date getM_date() {
-        return m_date;
+    public String getMessage_userName() {
+        return message_userName;
     }
 
-    public String getM_portraitUrl() {
-        return m_portraitUrl;
+    public Integer getMessage_state() {
+        return message_state;
     }
 }

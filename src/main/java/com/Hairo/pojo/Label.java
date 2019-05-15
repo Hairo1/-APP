@@ -14,15 +14,16 @@ public class Label implements Serializable {
     private static final long serialVersionUID = -52632415280489L;
     private String l_name;//标签云昵称
     private Integer l_count;//文章个数
+    private Integer  l_start;//标签状态 0禁用 1启用
 
     @Override
     public String toString() {
         return "Label{" +
                 "l_name='" + l_name + '\'' +
                 ", l_count=" + l_count +
+                ", l_start=" + l_start +
                 '}';
     }
-
 
     public void setL_name(String l_name) {
         this.l_name = l_name;
@@ -32,6 +33,13 @@ public class Label implements Serializable {
         this.l_count = l_count;
     }
 
+    public void setL_start(Integer l_start) {
+        this.l_start = l_start;
+    }
+
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
 
     public String getL_name() {
         return l_name;
@@ -39,5 +47,9 @@ public class Label implements Serializable {
 
     public Integer getL_count() {
         return l_count;
+    }
+
+    public Integer getL_start() {
+        return l_start;
     }
 }

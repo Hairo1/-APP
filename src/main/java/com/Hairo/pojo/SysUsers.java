@@ -16,7 +16,7 @@ public class SysUsers implements Serializable {
     private String u_password;
     private String u_email;
     private String u_contact;
-
+    private Integer u_state;
 
 
     @Override
@@ -27,6 +27,7 @@ public class SysUsers implements Serializable {
                 ", u_password='" + u_password + '\'' +
                 ", u_email='" + u_email + '\'' +
                 ", u_contact='" + u_contact + '\'' +
+                ", u_state=" + u_state +
                 '}';
     }
 
@@ -50,6 +51,14 @@ public class SysUsers implements Serializable {
         this.u_contact = u_contact;
     }
 
+    public void setU_state(Integer u_state) {
+        this.u_state = u_state;
+    }
+
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
+
     public Integer getU_id() {
         return u_id;
     }
@@ -68,5 +77,9 @@ public class SysUsers implements Serializable {
 
     public String getU_contact() {
         return u_contact;
+    }
+
+    public Integer getU_state() {
+        return u_state;
     }
 }

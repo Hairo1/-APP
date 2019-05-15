@@ -32,8 +32,8 @@ public class LogAspect {
     public void doBefore(JoinPoint joinPoint) throws Throwable {
         ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
         HttpServletRequest request = attributes.getRequest();
-        logger.info("URL : " + java.net.URLDecoder.decode(request.getRequestURL().toString(),"utf-8") );
-        logger.info("HTTP_METHOD : " + request.getMethod());
+        logger.info("请求URL : " + java.net.URLDecoder.decode(request.getRequestURL().toString(),"utf-8") );
+        logger.info("请求类型 : " + request.getMethod());
         logger.info("IP : " + request.getRemoteAddr());
         Enumeration<String> enu = request.getParameterNames();
         while (enu.hasMoreElements()) {
@@ -58,8 +58,6 @@ public class LogAspect {
         }else{
             logger.info("返回内容 : " + ret);
         }
-
-
     }
 
     /**
@@ -69,6 +67,6 @@ public class LogAspect {
      */
     @AfterThrowing(pointcut = "webLog()", throwing = "e")
     public void throwing(JoinPoint joinPoint, Exception e) {
-        logger.info("抛出的异常是:" + e.getClass());
+        logger.error("抛出的异常是:" + e.getClass());
     }
 }

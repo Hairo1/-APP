@@ -5,6 +5,7 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * 文章接口
@@ -19,7 +20,7 @@ public interface ArticlesMapper {
      * @param pageSize 每页显示条数
      * @return
      */
-    public List<Articles> selectAllArticles(@Param("pageNum")Integer pageNum,@Param("pageSize") Integer pageSize);
+    public List<Articles> selectAllArticles(@Param("pageNum")Integer pageNum,@Param("pageSize") Integer pageSize,@Param("state") Integer state);
 
     /**
      * 根据ID获取文章
@@ -54,6 +55,8 @@ public interface ArticlesMapper {
      * @return
      */
     public Integer selectArticleCountByAuthor(@Param("author") String author);
+
+    public Integer selectArticleCountByLabel(@Param("label") String label);
 
     /**
      * 添加文章
@@ -90,9 +93,16 @@ public interface ArticlesMapper {
     public List<Articles> selectRandomArticle();
 
     /**
-     * 批量更新文章点赞数量
+     * 更新文章点赞数量
      * @param articleId 文章ID列表
      * @return
      */
     public Integer updateArticlePraise(Integer articleId);
+
+    /**
+     * 批量更新文章浏览量
+     * @param map 文章ID && 浏览数量
+     * @return
+     */
+    public Integer updateArticlePageView(@Param("map") Map<Object,Object>  map);
 }

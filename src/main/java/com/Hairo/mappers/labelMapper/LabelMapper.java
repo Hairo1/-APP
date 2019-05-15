@@ -10,7 +10,16 @@ import java.util.List;
 public interface LabelMapper {
     Label getLabelById(@Param("l_name") String l_name);
 
-    List<Label> getAllLabel();
+    List<Label> getAllLabel(@Param("state") Integer state);
 
     Integer selectLabelCountByName(@Param("l_name") String l_name);
-}
+
+    Integer delLabelById(@Param("labelId") Integer labelId );
+
+    Integer insertLabel(Label label);
+
+    Integer updateLabel(Label label);
+
+    Integer updateLabelCount(@Param("l_name") String l_name,@Param("count") int count);
+
+ }

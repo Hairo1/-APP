@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.Hairo.mappers.commentInfoMapper.CommentInfoMapper">
+    <!--开启原生二级缓存-->
+    <cache />
+    <sql id="commentInfoField">
+        `m_id`,
+          `m_userName`,
+          `m_email`,
+          `m_url`,
+          `m_content`,
+          `m_date`,
+          `m_portraitUrl`,
+           `m_articleId`
+    </sql>
+    <insert id="insertCommentInfo" parameterType="CommentInfo">
+         INSERT INTO `hairo_db`.`t_commentinfo` (
+                `m_userName`,
+                `m_email`,
+                `m_url`,
+                `m_content`,
+                `m_date`,
+                `m_portraitUrl`,
+                 `m_articleId`
+                )
+                VALUES
+                (
+                #{m_userName},
+                #{m_email},
+                #{m_url},
+                #{m_content},
+                #{m_date},
+                #{m_portraitUrl},
+                #{m_articleId}
+                ) ;
+          </insert>
+    <delete id="delCommentInfo">
+        DELETE
+        FROM
+          `hairo_db`.`t_commentinfo`
+        WHERE `m_id` = #{commentId} ;
+    </delete>
+    <select id="selectAllMessageBoardCommentInfo" resultType="CommentInfo">
+        SELECT
+         <include refid="commentInfoField"/>
+        FROM
+          `hairo_db`.`t_commentinfo`
+        where m_articleId = 0
+    </select>
+    <select id="selectArticleComments" resultType="CommentInfo">
+        SELECT
+          <include refid="commentInfoField"/>
+        FROM
+          `hairo_db`.`t_commentinfo`
+        where m_articleId = #{articleId}
+    </select>
+    <select id="getCommentInfoByText" resultType="CommentInfo">
+        SELECT
+          `m_id`,
+          `m_userName`,
+          `m_email`,
+          `m_url`,
+          `m_content`,
+          `m_date`,
+          `m_portraitUrl`,
+          `m_articleId`
+        FROM
+          `hairo_db`.`t_commentinfo`
+        WHERE   m_content LIKE CONCAT('%',#{text},'%')
+    </select>
+
+</mapper>

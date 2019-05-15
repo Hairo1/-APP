@@ -19,20 +19,56 @@ public class LabelServiceImpl implements LabelService {
     @Autowired
     private LabelMapper labelMapper;
     @Override
-    public Label getLabelById(String l_name) {
+    public Label getLabelByName(String l_name) {
+        if(l_name ==null || l_name.equals("")){
+            return null;
+        }
         return labelMapper.getLabelById(l_name);
     }
 
     @Override
-    public List<Label> getAllLabel() {
-        return labelMapper.getAllLabel();
+    public List<Label> getAllLabel(Integer state) {
+        return labelMapper.getAllLabel(state);
     }
 
     @Override
     public Integer selectLabelCountByName(String l_name) {
         if(l_name == null || 0 == l_name.length() || "".equals(l_name)){
-            return -1;
+            return 0;
         }
         return labelMapper.selectLabelCountByName(l_name);
+    }
+
+
+    @Override
+    public Integer delLabel(Integer labelId) {
+        if(labelId == null || labelId<9999){
+            return 0;
+        }
+        return labelMapper.delLabelById(labelId);
+    }
+
+    @Override
+    public Integer addLabel(Label label) {
+        if(label == null || label.getL_name() == null || "".equals(label.getL_name())){
+                return 0;
+        }
+        return labelMapper.insertLabel(label);
+    }
+
+    @Override
+    public Integer updateLabel(Label label) {
+        if(label == null || label.getL_name() == null || "".equals(label.getL_name())){
+            return 0;
+        }
+        return labelMapper.updateLabel(label);
+    }
+
+    @Override
+    public Integer updateLabelCount(String l_name,int count) {
+        if(l_name==null)
+            return 0;
+        else
+            return labelMapper.updateLabelCount(l_name,count);
     }
 }

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.Hairo.mappers.articleReviewMapper.ArticleReviewMapper">
+
+    <cache/>
+    <insert id="insertArticleReview">
+        INSERT INTO `hairo_db`.`t_articlereview` (
+          `articleId`,
+          `reviewContent`,
+          `reviewDate`,
+          `randomImgUrl`,
+          `reviewUserName`,
+          `reviewUserBlogroll`,
+          `reviewUserEmail`,
+          `reviewState`
+        )
+        VALUES
+          (
+            #{articleId},
+            #{reviewContent},
+            #{reviewDate},
+            #{randomImgUrl},
+            #{reviewUserName},
+            #{reviewUserBlogroll},
+            #{reviewUserEmail},
+            #{reviewState}
+          ) ;
+
+
+    </insert>
+    <delete id="delectArticleReview">
+      delete  form t_articlereview
+      where reviewId = #{reviewId}
+
+    </delete>
+    <select id="selectArticleReview" resultType="ArticleReview">
+        SELECT
+          `reviewId`,
+          `articleId`,
+          `reviewContent`,
+          `reviewDate`,
+          `randomImgUrl`,
+          `reviewUserName`,
+          `reviewUserBlogroll`,
+          `reviewUserEmail`,
+          `reviewState`
+        FROM
+        `hairo_db`.`t_articlereview`
+        where articleId = #{articleId}
+        order by reviewDate
+        LIMIT #{page}, #{pageSize} ;
+    </select>
+    <select id="selectArticleReviewUser" resultType="ArticleReview">
+         SELECT
+              `reviewId`,
+              `articleId`,
+              `reviewContent`,
+              `reviewDate`,
+              `randomImgUrl`,
+              `reviewUserName`,
+              `reviewUserBlogroll`,
+              `reviewUserEmail`,
+              `reviewState`
+            FROM
+            `hairo_db`.`t_articlereview`
+            where reviewUserName like #{userName}
+            order by reviewDate
+            LIMIT 0, 1 ;
+
+    </select>
+</mapper>
